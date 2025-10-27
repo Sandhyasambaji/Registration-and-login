@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": "c695",
+      "user": "dsd",
+      "pass": "fsd",
+      "email": "fd"
+    },
+    {
+      "id": "ecb0",
+      "user": "jjlkj",
+      "pass": "jl",
+      "email": "hjl"
+    },
+    {
+      "id": "a044",
+      "user": "hlj",
+      "pass": "kj",
+      "email": "bjh"
+    },
+    {
+      "id": "3637",
+      "user": "sandhya",
+      "pass": "jj",
+      "email": "jk"
+    },
+    {
+      "id": "499f",
+      "user": "hh",
+      "pass": "hh",
+      "email": "kk"
+    },
+    {
+      "id": "de10",
+      "user": "jjk",
+      "pass": "kkl",
+      "email": "jhjk"
+    },
+    {
+      "id": "090e",
+      "user": "klk",
+      "pass": "uij",
+      "email": "jj"
+    },
+    {
+      "id": "c22b",
+      "user": "j",
+      "pass": "l",
+      "email": "j"
+    },
+    {
+      "id": "3b53",
+      "user": "jjj",
+      "pass": "l",
+      "email": "k"
+    },
+    {
+      "id": "1192",
+      "user": "k",
+      "pass": "l",
+      "email": "l"
+    },
+    {
+      "user": "g",
+      "pass": "f",
+      "email": "g",
+      "id": "HXfcFMg"
+    },
+    {
+      "user": "f",
+      "pass": "d",
+      "email": "f",
+      "id": "uBtAxaH"
+    },
+    {
+      "user": "d",
+      "pass": "d",
+      "email": "d",
+      "id": "KyYq5gr"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Nice post!",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Chaitu"
+  }
+}
