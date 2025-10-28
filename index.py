@@ -5,7 +5,7 @@ def registerdata():
     email=input("enter email: ")
 
     if len(username)==0 or len(password)==0 or len(email)==0:
-        print("enter the details properly")
+        print("Please fill in all fields!")
         return registerdata()
     else:
         dicct= {
@@ -13,21 +13,21 @@ def registerdata():
             "pass":password,
             "email":email
     }
-    return dicct  
+    
      
-ress=r.get("http://localhost:3000/posts")
-data1=ress.json()
-data=registerdata()
-exists=False
-for i in data1:
-    if i["user"]==data["user"]:
-        exists=True
-if exists:
-    print("username already exists")
-else:
-    res=r.post("http://localhost:3000/posts",json=data)
-    print("user added successfully")
-    print(res.json())
+    ress=r.get("http://localhost:3000/posts")
+    users=ress.json()
+
+    exists=False
+    for i in users:
+        if i.get("user")==username:
+            exists=True
+            break
+    if exists:
+        print("username already exists")
+    else:
+        res=r.post("http://localhost:3000/posts",json=dicct)
+        print("user registered successfully!")
 
 def logindata():
     username = input("enter username to login: ")
@@ -46,11 +46,28 @@ def logindata():
         print("Login failed! Invalid username or password.")
 
 def main():
-    new_user = registerdata()
-    if new_user:
-        logindata()
+    while True:
+        print("\n=== MENU ===")
+        print("1. Register")
+        print("2. Login")
+        print("3. Exit")
 
-main()
+        choice = input("Enter your choice (1/2/3): ")
+
+        if choice == "1":
+            registerdata()
+        elif choice == "2":
+            logindata()
+        elif choice == "3":
+            print("Exiting program. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
+
+
 
 
 
