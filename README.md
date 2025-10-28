@@ -1,13 +1,13 @@
-🧩 Registration and Login System (Python + JSON Server)
+**Registration and Login System (Python + JSON Server)
 
-📖 Overview
+Overview
 
 This project is a simple Registration and Login System built using Python and JSON Server.
 It allows users to register new accounts, store their information in a mock REST API (db.json), and log in with their credentials.
 
 This project demonstrates how to connect Python with a REST API, handle user authentication, and manage data using HTTP methods (GET, POST).
 
-🚀 Features
+Features
 
 1.Register a new user with a username, password, and email
 
@@ -21,7 +21,7 @@ This project demonstrates how to connect Python with a REST API, handle user aut
 
 6.Runs locally using JSON Server for data storage
 
-🛠️ Technologies Used
+Technologies Used
 
 Python 
 
