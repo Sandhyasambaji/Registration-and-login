@@ -9,12 +9,17 @@ This project demonstrates how to connect Python with a REST API, handle user aut
 
 🚀 Features
 
-✅ Register a new user with a username, password, and email
-✅ Validate missing fields before registration
-✅ Prevent duplicate usernames
-✅ Login using stored credentials
-✅ Display success or failure messages
-✅ Runs locally using JSON Server for data storage
+1.Register a new user with a username, password, and email
+
+2.Validate missing fields before registration
+
+3.Prevent duplicate usernames
+
+4.Login using stored credentials
+
+5.Display success or failure messages
+
+6.Runs locally using JSON Server for data storage
 
 🛠️ Technologies Used
 
